@@ -1,0 +1,468 @@
+<!DOCTYPE html><html><head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo_thumb.png') }}" type="image/x-icon">
+  <meta name="description" content>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  
+  <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mobirise2.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-grid.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-reboot.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_1.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/recaptcha.css') }}">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&amp;display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="{{ url_for('static', filename='css/mbr-additional.css') }}" type="text/css">
+  
+  <style>
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+}
+</style>
+
+    <style>
+    .audio-container {
+      text-align: center;
+      margin: 30px auto;
+    }
+    .audio-container a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+    }
+    .audio-container a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+     <style>
+        .accordion {
+            margin-bottom: 50px;
+        }
+
+        .accordion-header {
+            background-color: #f1f1f1;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .accordion-body {
+            background-color: #ffffff;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            if (answer.style.display === "none") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu2 cid-sLnr1kEfeQ" once="menu" id="menu1-0">
+    
+
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="#">
+                        <img src="{{ url_for('static', filename='images/logo2-1.png') }}" alt style="height: 3rem;">
+                    </a>
+                </span>
+            </div>
+
+</section>
+
+
+
+<section data-bs-version="5.1" class="header1 cid-sLnr1ytTKU" id="header1-1">
+    
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="right-side">
+                    <h5 class="mbr-section-title mbr-fonts-style display-1">
+                        <strong>Hekayəni bizimlə səsləndir!</strong>
+                    </h5>
+                    <p class="mbr-text mbr-fonts-style display-4">
+                        "səslə" Azərbaycan dilində yazılı mətni nitqə  çevirmək üçün ən müasir Süni İntellekt texnologiyalarından istifadə edir.
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="">
+                    <img src="{{ url_for('static', filename='images/preview.png') }}" alt="" class="align">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-bs-version="5.1" class="form3 cid-sLt0rYPenx" id="form3-d">
+
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col">
+            <div class="card">
+                <div class="row justify-content-between align">
+                    <div class="col-12 col-md-6 text-part">
+                        <h4 class="mbr-section-title mbr-fonts-style align-center display-5"><strong>Səsləndirmək istədiyin mətni daxil et.</strong></h4>
+                    </div>
+                    <div class="col-12 form-part">
+                        <div class="mbr-form top" data-form-type="formoid">
+                            <form action="/" method="post" class="mbr-form form-with-styler" data-form-title="Form Name">
+
+                                <div class="dragArea row">
+                                    <div data-for="email" class="form-group col-12 col-lg">
+                                        <textarea id="inputText" name="inputText" rows="4" cols="50" placeholder="Mətn" class="form-control display-7"></textarea>
+                                        <div class="col-auto button">
+                                            <button class="btn btn-primary display-4" type="submit">Səsləndir</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function setTextToInput(text) {
+        document.getElementById('inputText').value = text;
+    }
+</script>
+</section>
+<div class="col-auto text-center">
+    <h4 class="mbr-section-title mbr-fonts-style align-left display-4" style="margin: 0 10px;">
+        {{your_text}}
+    </h4>
+</div>
+
+
+  <div class="audio-container">
+    <audio id="audioPlayer" controls>
+      <source src="{{ audio_path }}" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+<div class="center">
+  <a href="{{ audio_path }}" download="{{your_text}}.wav">Yüklə</a>
+</div>
+
+
+
+<section data-bs-version="5.1" class="slider3 mbr-embla cid-sLyaq8aA51" id="slider3-h">
+
+
+
+
+    <div class="container">
+        <div class="row title-block">
+            <div class="col">
+                <h4 class="mbr-section-subtitle mbr-fonts-style display-2">
+                    <strong>Nümunə mətnlər</strong></h4>
+            </div>
+            <div class="col-auto">
+                <h3 class="mbr-section-title mbr-fonts-style display-4">
+                    Ağlında heç bir cümlə yoxdur? Nümunə mətnlərdən ilhamlanaraq, "səslə"-nin gücünü kəş et!
+                </h3>
+            </div>
+        </div>
+        <div class="embla" data-skip-snaps="true" data-align="center" data-contain-scroll="trimSnaps" data-auto-play-interval="5" data-draggable="true">
+            <div class="embla__viewport container">
+                <div class="embla__container">
+                    <div class="embla__slide slider-image item features-image" style="margin-left: 1rem; margin-right: 1rem;">
+                        <div class="slide-content">
+                            <div class="shadow item-wrapper">
+                                <div class="row people">
+
+                                    <div class="col">
+
+                                        <h5 class="card-text mbr-fonts-style display-4" onclick="setTextToInput(this.innerText)">
+                                            Mixail baba dodaqları altında mırıldanaraq, kürkünü başına çəkdi və bir azdan sonra yuxuya getdi. Lakin balaca Lena aclığını unudub çar baba barəsində anasına dürlü-dürlü suallar verirdi.</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="embla__slide slider-image item features-image" style="margin-left: 1rem; margin-right: 1rem;">
+                        <div class="slide-content">
+                            <div class="shadow item-wrapper">
+                                <div class="row people">
+
+                                    <div class="col">
+
+                                        <h5 class="card-text mbr-fonts-style display-4" onclick="setTextToInput(this.innerText)">
+                                        Xarici mediaya istinadən, sözügedən film tamaşaçıların 18 faizi tərəfindən seçilərək bəyənildi.
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="header2 cid-sLy9uOhBoE" id="header2-f">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6 b">
+                <div class="gray">
+                    <img src="{{ url_for('static', filename='images/logo_thumb.png') }}" alt class="align first">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 t">
+                <div class="right-side">
+                    <h5 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong>"səslə" haqqında</strong>
+                    </h5>
+                    <p class="mbr-text mbr-fonts-style display-4">
+                        "səslə" Süni İntellekt modeli ən müasir mətndən səsə çevirmə yanaşmalarından biri olan VITS [Kim et al., 2021] yanaşmasına əsaslanır. VITS yanaşmasının müxtəlif dillərə tətbiq olunsa da, Azərbaycan dili üçün ilk tətbiqidir. Mövcud model 8 ədəd V100-GPU üzərində 100 min addımda öyrədilmişdir. Azərbaycan dili üçün CER (Char Error Rate) 3.9-dur. "səslə":
+                    </p>
+                    <ul class="list mbr-fonts-style display-4">
+                        <li><strong>42 dəqiqəyə qədər səs hazırlaya bilir</strong></li>
+                        <li><strong>Rəqəmləri, tarixləri səsləndirə bilir</strong></li>
+                        <li><strong>Müxtəlif məhsullar üçün istifadə oluna bilər</strong></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-bs-version="5.1" class="people5 cid-sLy9CWlREx" id="people5-g">
+    
+
+    
+
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-lg-6">
+                <div class="right-side">
+                    <h5 class="mbr-section-title mbr-fonts-style display-2">
+                        <strong>Mən kiməm?</strong></h5>
+                    <p class="mbr-text mbr-fonts-style display-4">Hal-hazırda ölkənin aparıcı telekommunikasiya şirkətlərindən birində Maşın Öyrənmə Mühəndisi vəzifəsində çalışıram və 4+ illik proqramlaşdırma təcrübəsinə malik, AWS və Google Sertifikatlı Maşın Öyrənmə mühəndisiyəm.
+                        <br>
+                        <br>Eyni zamanda "TFUG - Azerbaijan" Süni İntellekt icmasının qurucusu və bir neçə open-source layihələrin müəllifiyəm.</p>
+                    <div class="button-align">
+                        <div class="mbr-section-btn">
+                        <a class="btn btn-primary display-4" href="https://www.nijatzeynalov.com/" target="_blank">PORTFOLİO</a>
+
+                                                    <a class="btn btn-primary display-4" href="https://www.linkedin.com/in/nijat-zeynalov-064163142/" target="_blank">ƏLAQƏ</a>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="left-side">
+                    <div class="shadow">
+                        <img src="{{ url_for('static', filename='images/img_author.jpg') }}" alt class="align">
+                        <h5 class="card-title mbr-fonts-style display-2">
+                            <strong>Nicat Zeynalov</strong></h5>
+                        <h5 class="card-subtitle mbr-fonts-style display-4">
+                            Machine Learning mühəndisi</h5>
+                        <h5 class="card-text mbr-fonts-style display-4">
+                            Bacarıqlar: AWS Services, Python, Linux, Predictive Modeling, TensorFlow, PyTorch, NLP, Computer Vision, Model Deployment, MLOps, SQL və s.
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section data-bs-version="5.1" class="features8 cid-sLnroLDOUG" id="features8-9">
+    
+
+    
+
+    <div>
+        <div class="container">
+            <div class="row row-main">
+                <div class="col-auto">
+                    <h3 class="mbr-section-subtitle mbr-fonts-style display-7"><strong>"səslə"ni harada tətbiq edə bilərsiniz?</strong></h3>
+                </div>
+                <div class="col brand-col">
+                    <div class="row brand-row">
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <div class="brand">
+                                <p style="color: white;">Xəbər mətnlərini səsləndirə bilərsiniz.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 t1">
+                            <div class="brand">
+                                <p style="color: white;">Audio kitab yarada bilərsiniz. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 t">
+                            <div class="brand">
+                                <p style="color: white;">Biznesiniz üçün tətbiq edə bilərsiniz. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 t">
+                            <div class="brand">
+                                <p style="color: white;">Səsli çatbot yarada bilərsiniz. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div></section>
+
+
+      <section class="faq-section" id="faq-section">
+        <div class="container">
+              <div class="row">
+                <div class="col">
+                    <h2 class="mbr-section-title mbr-fonts-style display-2">Ən çox verilən suallar</h2>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <div class="accordion" id="faqAccordion">
+
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading1">
+                                <button class="accordion-button" type="button" onclick="toggleAnswer('faqCollapse1')">
+                                    "səslə"-nin mənbə kodları paylaşılacaq?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse1" class="accordion-body">
+                                <p>Xeyr, layihənin mənbə kodları paylaşılmayacaq.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading2">
+                                <button class="accordion-button" type="button" onclick="toggleAnswer('faqCollapse2')">
+                                    "səslə" sıfırdan train edilib?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse2" class="accordion-body">
+                                <p> Xeyr, mətnin səsə çevrilməsi zamanı öncədən train edilmiş modeldən istifadə olunur.</p>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading3">
+                                <button class="accordion-button" type="button" onclick="toggleAnswer('faqCollapse3')">
+                                    mətnin səsə çevrilməsi zamanı hansısa APİ-yə müraciət edilir?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse3" class="accordion-body">
+                                <p> Xeyr. Heç bir APİ istifadə olunmur.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading4">
+                                <button class="accordion-button" type="button" onclick="toggleAnswer('faqCollapse4')">
+                                    Sayta daxil edilən mətnlər saxlanılır?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse4" class="accordion-body">
+                                <p> Bəli.</p>
+                            </div>
+                        </div>
+
+                                                <div class="accordion-item">
+                            <h3 class="accordion-header" id="faqHeading5">
+                                <button class="accordion-button" type="button" onclick="toggleAnswer('faqCollapse5')">
+                                    mətnin səsləndirilməsi üçün söz və ya cümlə limiti var?
+                                </button>
+                            </h3>
+                            <div id="faqCollapse5" class="accordion-body">
+                                <p> Xeyr, heç bir limit yoxdur. Növbəti versiyada mövcud məhdudiyyətlər aradan qaldırılacaq.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section data-bs-version="5.1" class="footer1 cid-sLnrtHEkJZ" once="footers" id="footer1-c">
+    
+    
+    <div class="container">
+        <div class="row align-center mbr-white">
+            <div class="col-12">
+                <div class="line"></div>
+                <p class="mbr-text mb-0 mbr-fonts-style display-4">© Saytın bütün hüquqları Nicat Zeynalova məxsusdur.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/smooth-scroll.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/navbar-dropdown.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/embla.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/script_1.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/formoid.min.js') }}"></script>
+  
+
+  
+
+
+</body></html>
